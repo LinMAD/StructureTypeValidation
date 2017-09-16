@@ -1,0 +1,32 @@
+{
+  "name": "linmad/structure-type-validation",
+  "type": "library",
+  "description": "Light and simple validator for structures",
+  "keywords": [
+    "validator","analyzer", "structure",
+    "array", "json", "strict", "type"
+  ],
+  "homepage": "https://github.com/LinMAD/StructureTypeValidation",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Artjoms Nemiro"
+    }
+  ],
+  "require": {
+    "php": ">=7"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "6.3.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "StructureValidator\\": "src/StructureValidator/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "StructureValidator\\Test\\": "test/StructureValidator/"
+    }
+  }
+}
