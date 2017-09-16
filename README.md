@@ -1,5 +1,5 @@
 ## Structure Type Validation
-[travis build img status](https://travis-ci.org/LinMAD/StructureTypeValidation.svg?branch=master)
+![travis build img status](https://travis-ci.org/LinMAD/StructureTypeValidation.svg?branch=master)
 
 
     Light and simple structure validator. Do validation of yours structures as expected.
