@@ -1,4 +1,6 @@
 ## Structure Type Validation
+[travis build img status](https://travis-ci.org/LinMAD/StructureTypeValidation.svg?branch=master)
+
 
     Light and simple structure validator. Do validation of yours structures as expected.
 
@@ -17,4 +19,3 @@ In the end, you will receive a boolean and from that you can understand if struc
 #### TODO :thinking:
 - Add diagram of algorithm for better explanation
 - Add coveralls
-- Add Travis CI
