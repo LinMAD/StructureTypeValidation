@@ -1,11 +1,11 @@
 ## Structure Type Validation
-![travis build img status](https://travis-ci.org/LinMAD/StructureTypeValidation.svg?branch=master)
+[![Build Status](https://travis-ci.org/LinMAD/StructureTypeValidation.svg?branch=master)](https://travis-ci.org/LinMAD/StructureTypeValidation)
 
 
     Light and simple structure validator. Do validation of yours structures as expected.
 
 #### Where to use
-Generally, if need to work with huge or complex structures and to be sure the needed data exist and value types are as expected.
+Generally, if need to work with huge or complex structures and need to be sure the key and value types exist as expected.
 For example, you work with some API. Your system receives structure, the you must it validate and ways of that is different.
 One of that way is my, you can create a list of mandatory keys and types to validate structure.
 It' allows you to cut of wrong work, before executing heavy manipulation with data, for example serialization to object.
