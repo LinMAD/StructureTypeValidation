@@ -58,6 +58,16 @@ class Analyzer
     }
 
     /**
+     * Returns all founded errors while analyzing structure with mapping
+     *
+     * @return array
+     */
+    public function getErrors(): array
+    {
+        return $this->errorBucket;
+    }
+
+    /**
      * Lookup given structure, compare the check list and collect the errors
      *
      * @param array $structure
@@ -92,16 +102,6 @@ class Analyzer
 
             unset($checkList[$key]); // Remove checked key from list
         }
-    }
-
-    /**
-     * Returns all founded errors while analyzing structure with mapping
-     *
-     * @return array
-     */
-    public function getErrors(): array
-    {
-        return $this->errorBucket;
     }
 
     /**
