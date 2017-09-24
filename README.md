@@ -1,6 +1,6 @@
 ## Structure Type Validation
 [![Build Status](https://travis-ci.org/LinMAD/StructureTypeValidation.svg?branch=master)](https://travis-ci.org/LinMAD/StructureTypeValidation)
-
+[![Coverage Status](https://coveralls.io/repos/github/LinMAD/StructureTypeValidation/badge.svg?branch=master)](https://coveralls.io/github/LinMAD/StructureTypeValidation?branch=master)
 
     Light and simple structure validator. Do validation of yours structures as expected.
 
