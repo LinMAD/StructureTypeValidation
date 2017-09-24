@@ -15,7 +15,4 @@ Analyzer will compare your structure with your structure mapping with strict typ
 Then if it founds some mismatches it will put error to bucket and after process you can view errors in bucket.
 In the end, you will receive a boolean and from that you can understand if structure valid as expected mapping.
 
-
-#### TODO :thinking:
-- Add diagram of algorithm for better explanation
-- Add coveralls
+In other words, it simply walks in your tree and checks needed keys exist and value type are correct.
